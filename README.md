@@ -16,7 +16,6 @@ Para usar los **Botones primarios** se debe incluir clases en las etiquetas `.bt
 ```html hl_lines="1"
 <a href="" class="btn-primary">Boton</a>
 ```
-#### Resultado
 ### Boton Secundario
 Para usar los **Botones secundarios** se debe incluir clases en las etiquetas `.btn-secondary` y así podras usar los estilos.
 
@@ -24,7 +23,6 @@ Para usar los **Botones secundarios** se debe incluir clases en las etiquetas `.
 ```html
 <a href="" class="btn-secondary">Boton</a>
 ```
-#### Resultado
 
 ## ENLACES
 
@@ -35,7 +33,6 @@ Para usar los **enlaces primarios** se debe incluir clases en las etiquetas `.li
 ```html
 <a href="" class="link-p">Boton</a>
 ```
-#### Resultado
 
 ### Enlace secundario
 Para usar los **enlaces secundarios** se debe incluir clases en las etiquetas `.link-s` y así podras usar los estilos.
@@ -44,7 +41,6 @@ Para usar los **enlaces secundarios** se debe incluir clases en las etiquetas `.
 ```html
 <a href="" class="link-s">Boton</a>
 ```
-#### Resultado
 
 
 [hdesks-link]:https://hdesks.blogspot.com/ "HDesks"
