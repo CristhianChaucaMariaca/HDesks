@@ -1,11 +1,11 @@
 # HDesks
 
-1. [BOTONES](botones)
-  - [primario](boton-primario)
-  - [secundario](boton-secundario)
-2. [ENLACES](enlaces)
-  - [Enlace primario](enlace-primario)
-  - [Enlace secundario](enlace-secundario)
+1. [BOTONES](#botones)
+  - [primario](#boton-primario)
+  - [secundario](#boton-secundario)
+2. [ENLACES](#enlaces)
+  - [Enlace primario](#enlace-primario)
+  - [Enlace secundario](#enlace-secundario)
 ___
 ## BOTONES
 
@@ -13,7 +13,7 @@ ___
 Para usar los **Botones primarios** se debe incluir clases en las etiquetas `.btn-primary` y así podras usar los estilos.
 
 #### Ejemplo de uso:
-```html
+```html hl_lines="1"
 <a href="" class="btn-primary">Boton</a>
 ```
 #### Resultado
