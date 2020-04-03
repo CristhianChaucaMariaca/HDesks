@@ -1,8 +1,8 @@
 # HDesks
-
+> Guía rápida para utilizar los los estilos en la página web *[hdesks-link]*, se debe copiar el archivo [styles-css] en la configuración avanzada CSS del Blog en Blogger.
 1. [BOTONES](#botones)
-  - [primario](#boton-primario)
-  - [secundario](#boton-secundario)
+  - [Boton primario](#boton-primario)
+  - [Boton secundario](#boton-secundario)
 2. [ENLACES](#enlaces)
   - [Enlace primario](#enlace-primario)
   - [Enlace secundario](#enlace-secundario)
@@ -45,3 +45,7 @@ Para usar los **enlaces secundarios** se debe incluir clases en las etiquetas `.
 <a href="" class="link-s">Boton</a>
 ```
 #### Resultado
+
+
+[hdesks-link]:https://hdesks.blogspot.com/ "HDesks"
+[styles-css]:./source/style.css "styles.css"
