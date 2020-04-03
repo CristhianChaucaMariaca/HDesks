@@ -1,0 +1,91 @@
+// BOTONES
+@mixin buttons{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 900;
+  border-radius: $radius;
+  padding: $padding;
+  text-transform: uppercase;
+  @include margin_t_b;
+}
+@mixin buttons_hover{
+  transition: $trancition;
+  transform: $scale;
+}
+
+// ENLACES
+@mixin link_p{
+  @include c_l_primary;
+  text-decoration: none;
+  font-weight: bold;
+  &:hover{
+    text-decoration: underline;
+    transition: $trancition;
+  }
+}
+@mixin link_s{
+  @include c_l_secondary;
+  text-decoration: none;
+  font-weight: bold;
+  &:hover{
+    text-decoration: underline;
+    transition: $trancition;
+  }
+}
+
+// COLORES
+@mixin primary{
+  background-color: $primary;
+  color: $terciary;
+}
+@mixin secondary{
+  background-color: $secondary;
+  color: $terciary;
+}
+// COLOR DE ENLACE PRIMARIO
+@mixin c_l_primary{
+  color:$secondary;
+  &:hover{
+    color:$secondary-hover;
+  }
+}
+@mixin c_l_secondary{
+  color:$primary;
+  &:hover{
+    color:$primary-hover;
+  }
+}
+
+// MARGENES & PADDINGS
+@mixin margin_t_b{
+  margin-top: $margin;
+  margin-bottom: $margin;
+}
+@mixin margin_t{
+  margin-top: $margin;
+}
+@mixin margin_b{
+  margin-bottom: $margin;
+}
+@mixin margin_l{
+  margin-left: $margin;
+}
+@mixin margin_r{
+  margin-right: $margin;
+}
+
+
+// ALINEACIONES DE TEXTO
+@mixin align_c{
+  @include align(center);
+}
+@mixin align_l{
+  @include align(left);
+}
+@mixin align_r{
+  @include align(right);
+}
+@mixin align($align){
+  text-align: $align;
+}

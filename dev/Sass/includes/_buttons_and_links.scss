@@ -1,0 +1,23 @@
+// BUTTONS & LINKS
+.btn-primary{
+  @include primary;
+  @include buttons;
+  &:hover{
+    background-color: $primary-hover;
+    @include buttons_hover;
+  }
+}
+.btn-secondary{
+  @include buttons;
+  @include secondary;
+  &:hover{
+    background-color: $secondary-hover;
+    @include buttons_hover;
+  }
+}
+.link-p{
+  @include link_p;
+}
+.link-s{
+  @include link_s;
+}

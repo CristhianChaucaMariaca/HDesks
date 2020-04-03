@@ -1,0 +1,15 @@
+.margin-top{
+  @include margin_t;
+}
+.margin-b{
+  @include margin_b;
+}
+.margin-l{
+  @include margin_l;
+}
+.margin-r{
+  @include margin_r;
+}
+.margin-t-b{
+  @include margin_t_b;
+}

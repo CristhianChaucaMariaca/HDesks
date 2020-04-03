@@ -1,0 +1,16 @@
+.title-p{
+  font-size: 1.5em;
+}
+// Text Align
+// center
+.text-a-c{
+  @include align_c;
+}
+// left
+.text-a-l{
+  @include align_l;
+}
+// right
+.text-a-r{
+  @include align_r;
+}
