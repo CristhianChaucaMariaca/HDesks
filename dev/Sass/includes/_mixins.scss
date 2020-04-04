@@ -1,11 +1,16 @@
+@mixin box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 // BOTONES
 @mixin buttons{
-  display: block;
   text-decoration: none;
   text-align: center;
   font-weight: 900;
   border-radius: $radius;
-  padding: $padding;
+  padding: 10px;
   text-transform: uppercase;
   @include margin_t_b;
 }
@@ -40,7 +45,7 @@
   color: $terciary;
 }
 @mixin secondary{
-  background-color: $secondary;
+  background-color: $secondary-hover;
   color: $terciary;
 }
 // COLOR DE ENLACE PRIMARIO
@@ -57,10 +62,31 @@
   }
 }
 
+// COLORES TEXT
+@mixin color_t_p{
+  color:$primary;
+}
+@mixin color_t_s{
+  color:$secondary;
+}
+@mixin color_p_soft{
+  color:$primary-hover;
+}
+@mixin color_s_soft{
+  color:$secondary-hover;
+}
+@mixin color_t_t{
+  color:$terciary;
+}
+
 // MARGENES & PADDINGS
 @mixin margin_t_b{
   margin-top: $margin;
   margin-bottom: $margin;
+}
+@mixin margin_l_r{
+  margin-left: $margin;
+  margin-right: $margin;
 }
 @mixin margin_t{
   margin-top: $margin;
@@ -74,7 +100,46 @@
 @mixin margin_r{
   margin-right: $margin;
 }
+@mixin margin{
+  margin:$margin;
+}
 
+@mixin padding_t_b{
+  padding-top: $padding;
+  padding-bottom: $padding;
+}
+@mixin padding_l_r{
+  padding-left: $padding;
+  padding-right: $padding;
+}
+@mixin padding_t{
+  padding-top: $padding;
+}
+@mixin padding_b{
+  padding-bottom: $padding;
+}
+@mixin padding_l{
+  padding-left: $padding;
+}
+@mixin padding_r{
+  padding-right: $padding;
+}
+@mixin padding{
+  padding:$padding;
+}
+
+
+// SHADOWS
+@mixin shadow{
+  -webkit-box-shadow: 4px 3px 7px 3px rgba(0,0,0,0.24);
+  -moz-box-shadow: 4px 3px 7px 3px rgba(0,0,0,0.24);
+  box-shadow: 4px 3px 7px 3px rgba(0,0,0,0.24);
+}
+@mixin shadow_btn{
+  -webkit-box-shadow: 7px 7px 7px -6px rgba(0,0,0,0.44);
+-moz-box-shadow: 7px 7px 7px -6px rgba(0,0,0,0.44);
+box-shadow: 7px 7px 7px -6px rgba(0,0,0,0.44);
+}
 
 // ALINEACIONES DE TEXTO
 @mixin align_c{
@@ -89,3 +154,7 @@
 @mixin align($align){
   text-align: $align;
 }
+@mixin align_j{
+  @include align(justify);
+}
+// ALINEACIONES

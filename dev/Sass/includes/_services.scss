@@ -1,0 +1,46 @@
+.services{
+  @include box;
+  .service-item{
+    @include box;
+    overflow: hidden;
+    width: 350px;
+    height: 370px;
+    margin:$margin*3;
+    border-radius: $radius;
+    @include shadow;
+    .service-img{
+      width: 100%;
+      height: 120px;
+      text-align: center;
+      img{
+        width: 120px;
+        max-width: 100%;
+      }
+    }
+    .service-title{
+      @include margin-l-r;
+      h3{
+        @include align_c;
+        @include margin_t_b;
+        text-transform: uppercase;
+        font-weight: 900;
+      }
+    }
+    .service-description{
+      flex-grow: 1;
+      @include margin-l-r;
+      @include align_j;
+      @include box;
+      align-items: center;
+      p{
+        @include color_p_soft;
+      }
+    }
+    .service-link{
+      @include margin-l-r;
+      @include box;
+      align-self: flex-end;
+      a{}
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.products{
+  @include box;
+  .product-item{
+    @include shadow;
+    @include padding;
+    border-radius: $radius;
+    width: 600px;
+    margin: $margin*3;
+    .product-title{
+      @include padding_t;
+      @include margin;
+    }
+    .product-banner{
+      overflow: hidden;
+      border: solid 1px $secondary;
+      @include padding;
+      height: 206px;
+      img{
+        max-width: 100%;
+
+        width: 100%;
+      }
+    }
+    .product-description{
+      @include margin;
+    }
+    .product-link{
+      @include margin_l_r;
+      @include box;
+    }
+  }
+}

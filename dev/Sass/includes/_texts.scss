@@ -14,3 +14,17 @@
 .text-a-r{
   @include align_r;
 }
+// justify
+.text-a-j{
+  @include align_j;
+}
+// TITULOS
+.subtitle{
+  @include align_l;
+}
+// OTROS
+.hr-s{
+  border-top: 1px solid $secondary;
+  width: 100%;
+  height: 10px;
+}

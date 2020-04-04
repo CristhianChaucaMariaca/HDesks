@@ -1,4 +1,4 @@
-.margin-top{
+.margin-t{
   @include margin_t;
 }
 .margin-b{
@@ -12,4 +12,32 @@
 }
 .margin-t-b{
   @include margin_t_b;
+}
+.margin-l-r{
+  @include margin_l_r;
+}
+.margin{
+  @include margin;
+}
+
+.padding-t{
+  @include padding_t;
+}
+.padding-b{
+  @include padding_b;
+}
+.padding-l{
+  @include padding_l;
+}
+.padding-r{
+  @include padding_r;
+}
+.padding-t-b{
+  @include padding_t_b;
+}
+.padding-l-r{
+  @include padding_l_r;
+}
+.padding{
+  @include padding;
 }

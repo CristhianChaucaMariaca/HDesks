@@ -23,6 +23,12 @@ header{
     font-weight: 900;
   }
 }
+.title-p{
+  @include margin_b;
+  h3{
+    text-decoration: underline;
+  }
+}
 footer{
   padding: 50px;
   margin-top:50px;

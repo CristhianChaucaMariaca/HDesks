@@ -2,17 +2,20 @@
 .btn-primary{
   @include primary;
   @include buttons;
+  @include padding_l_r;
   &:hover{
     background-color: $primary-hover;
     @include buttons_hover;
+    @include shadow_btn;
   }
 }
 .btn-secondary{
   @include buttons;
   @include secondary;
   &:hover{
-    background-color: $secondary-hover;
+    background-color: $secondary;
     @include buttons_hover;
+    @include shadow_btn;
   }
 }
 .link-p{
