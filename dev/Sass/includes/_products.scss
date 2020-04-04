@@ -1,5 +1,5 @@
 .products{
-  @include box;
+  @include flex;
   .product-item{
     @include shadow;
     @include padding;
@@ -30,7 +30,7 @@
     }
     .product-link{
       @include margin_l_r;
-      @include box;
+      @include flex;
     }
   }
 }

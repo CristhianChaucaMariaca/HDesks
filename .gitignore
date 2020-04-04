@@ -1,2 +1,4 @@
 *.config
+/dev/css
+/dev/html
 README.html

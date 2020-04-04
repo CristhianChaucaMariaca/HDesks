@@ -1,5 +1,9 @@
 @import "includes/variables";
 @import "includes/mixins";
+@import "includes/mixins/grid";
+@import "includes/mixins/buttons";
+
+@import "includes/grid";
 @import "includes/colors";
 @import "includes/texts";
 @import "includes/margin_and_padding";
