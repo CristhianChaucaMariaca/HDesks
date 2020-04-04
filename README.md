@@ -42,6 +42,24 @@ Para usar los **enlaces secundarios** se debe incluir clases en las etiquetas `.
 <a href="" class="link-s">Boton</a>
 ```
 
+## SECCIONES
+
+### Productos
+Para usar el diseño de **productos** se debe seguir la siguiente estructura.
+
+#### Ejemplo de uso:
+```Pug hl_lines="1 2 3 5 7 9"
+.products
+  .product-item
+    .product-banner
+      img(src="Url de la imagen", alt="")
+    .product-title
+      h3.subtitle TITULOS
+    .product-description
+      p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis nostrum placeat magni id corporis eum, quaerat dolores! Recusandae, facere, eaque!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, corporis.
+    .product-link
+      a(href="#").btn-secondary BOTON
+```
 
 [hdesks-link]:https://hdesks.blogspot.com/ "HDesks"
 [styles-css]:./source/style.css "styles.css"

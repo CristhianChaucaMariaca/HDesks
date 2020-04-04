@@ -9,6 +9,7 @@
     .product-title{
       @include padding_t;
       @include margin;
+      color:$secondary-hover;
     }
     .product-banner{
       overflow: hidden;
@@ -23,6 +24,9 @@
     }
     .product-description{
       @include margin;
+      p{
+        @include align_j;
+      }
     }
     .product-link{
       @include margin_l_r;

@@ -269,7 +269,8 @@ footer {
     margin: 30px; }
     .products .product-item .product-title {
       padding-top: 5px;
-      margin: 10px; }
+      margin: 10px;
+      color: #008cff; }
     .products .product-item .product-banner {
       overflow: hidden;
       border: solid 1px #15bbf3;
@@ -280,6 +281,8 @@ footer {
         width: 100%; }
     .products .product-item .product-description {
       margin: 10px; }
+      .products .product-item .product-description p {
+        text-align: justify; }
     .products .product-item .product-link {
       margin-left: 10px;
       margin-right: 10px;
