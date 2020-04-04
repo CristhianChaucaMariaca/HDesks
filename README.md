@@ -6,6 +6,9 @@
 2. [ENLACES](#enlaces)
   - [Enlace primario](#enlace-primario)
   - [Enlace secundario](#enlace-secundario)
+3. [SECCIONES](#secciones)
+  - [Productos](#productos)
+  - [Servicios](#servicios)
 ___
 ## BOTONES
 
@@ -45,21 +48,54 @@ Para usar los **enlaces secundarios** se debe incluir clases en las etiquetas `.
 ## SECCIONES
 
 ### Productos
-Para usar el diseño de **productos** se debe seguir la siguiente estructura.
+Para implementar **Productos** se debe seguir la siguiente estructura, toda la estructura deve estar dentro de un `div` con la clase `products` y las etiquetas usan la clase generica `product`.
 
-#### Ejemplo de uso:
-```Pug hl_lines="1 2 3 5 7 9"
-.products
-  .product-item
-    .product-banner
-      img(src="Url de la imagen", alt="")
-    .product-title
-      h3.subtitle TITULOS
-    .product-description
-      p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis nostrum placeat magni id corporis eum, quaerat dolores! Recusandae, facere, eaque!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, corporis.
-    .product-link
-      a(href="#").btn-secondary BOTON
+#### Implementación en formáto HTML:
+```html
+<div class="products">
+  <div class="product-item">
+    <div class="product-banner"><img src="URL-IMAGEN" alt=""/></div>
+    <div class="product-title">
+      <h3 class="subtitle">Titulo Producto</h3>
+    </div>
+    <div class="product-description">
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis nostrum placeat magni id corporis eum, quaerat dolores! Recusandae, facere, eaque!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, corporis.</p>
+    </div>
+    <div class="product-link"><a class="btn-secondary" href="#">Consultar por el producto  </a></div>
+  </div>
+</div>
 ```
+### Servicios
+Para implementar **Servicios** se debe seguir la siguiente estructura, toda la estructura deve estar dentro de un `div` con la clase `services` y las etiquetas usan la clase generica `service`.
+
+#### Implementación en formáto HTML:
+```html
+<div class="services">
+  <div class="service-item">
+    <div class="service-title">
+      <h3>Redes</h3>
+      <div class="hr-s"></div>
+    </div>
+    <div class="service-img"><img src="media/ejemplo.png" alt=""/></div>
+    <div class="service-description">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, facilis!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, qui.</p>
+    </div>
+    <div class="service-link"><a class="btn-secondary" href="#">Ver Servicio</a></div>
+  </div>
+  <div class="service-item">
+    <div class="service-title">
+      <h3>Redes</h3>
+      <div class="hr-s"></div>
+    </div>
+    <div class="service-img"><img src="media/ejemplo.png" alt=""/></div>
+    <div class="service-description">
+      <p>Lorem ipsum dolor sit amet, consectetur</p>
+    </div>
+    <div class="service-link"><a class="btn-secondary" href="#">Ver Servicio</a></div>
+  </div>
+</div>
+```
+
 
 [hdesks-link]:https://hdesks.blogspot.com/ "HDesks"
 [styles-css]:./source/style.css "styles.css"
