@@ -1,4 +1,6 @@
 *.config
+/dev/css
+/dev/html
 README.html
 /dev/css
 /dev/css

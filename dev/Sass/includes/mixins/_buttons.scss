@@ -1,0 +1,16 @@
+// BOTONES
+@mixin buttons{
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  border-radius: $radius;
+  padding: 10px;
+  text-transform: uppercase;
+  margin: $margin;
+  position: relative;
+  @include margin_t_b;
+}
+@mixin buttons_hover{
+  transition: $trancition;
+  transform: $scale;
+}

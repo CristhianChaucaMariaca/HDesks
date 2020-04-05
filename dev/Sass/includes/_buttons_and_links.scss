@@ -1,23 +1,30 @@
 // BUTTONS & LINKS
+.btn{
+  @include buttons;
+  &:hover{
+    @include shadow_btn;
+    @include buttons_hover;
+  }
+}
 .btn-primary{
   @include primary;
-  @include buttons;
-  @include padding_l_r;
   &:hover{
     background-color: $primary-hover;
-    @include buttons_hover;
-    @include shadow_btn;
   }
 }
 .btn-secondary{
-  @include buttons;
   @include secondary;
   &:hover{
     background-color: $secondary;
-    @include buttons_hover;
-    @include shadow_btn;
   }
 }
+.btn-danger{
+  @include danger($danger,$terciary);
+  &:hover{
+    background-color: $danger-hover;
+  }
+}
+
 .link-p{
   @include link_p;
 }

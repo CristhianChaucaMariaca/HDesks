@@ -1,7 +1,7 @@
 .services{
-  @include box;
+  @include flex;
   .service-item{
-    @include box;
+    @include flex;
     overflow: hidden;
     width: 350px;
     height: 370px;
@@ -19,8 +19,9 @@
     }
     .service-title{
       @include margin-l-r;
+      width: 100%;
       h3{
-        @include align_c;
+        text-align: center;
         @include margin_t_b;
         text-transform: uppercase;
         font-weight: 900;
@@ -30,7 +31,7 @@
       flex-grow: 1;
       @include margin-l-r;
       @include align_j;
-      @include box;
+      @include flex;
       align-items: center;
       p{
         @include color_p_soft;
@@ -38,9 +39,12 @@
     }
     .service-link{
       @include margin-l-r;
-      @include box;
+      @include flex;
+      width: 100%;
       align-self: flex-end;
-      a{}
+      a{
+        width: 80%;
+      }
     }
   }
 }
