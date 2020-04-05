@@ -1,3 +1,8 @@
+@import "mixins/grid";
+@import "mixins/colors";
+@import "mixins/buttons";
+
+
 // ENLACES
 @mixin link_p{
   @include c_l_primary;
@@ -19,44 +24,7 @@
 }
 
 // COLORES
-@mixin primary{
-  background-color: $primary;
-  color: $terciary;
-}
-@mixin secondary{
-  background-color: $secondary-hover;
-  color: $terciary;
-}
-// COLOR DE ENLACE PRIMARIO
-@mixin c_l_primary{
-  color:$secondary;
-  &:hover{
-    color:$secondary-hover;
-  }
-}
-@mixin c_l_secondary{
-  color:$primary;
-  &:hover{
-    color:$primary-hover;
-  }
-}
 
-// COLORES TEXT
-@mixin color_t_p{
-  color:$primary;
-}
-@mixin color_t_s{
-  color:$secondary;
-}
-@mixin color_p_soft{
-  color:$primary-hover;
-}
-@mixin color_s_soft{
-  color:$secondary-hover;
-}
-@mixin color_t_t{
-  color:$terciary;
-}
 
 // MARGENES & PADDINGS
 @mixin margin_t_b{

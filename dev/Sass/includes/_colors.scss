@@ -1,4 +1,4 @@
-@mixin danger($color-1,$color-2){
-  background-color: $color-1;
-  color:$color-2;
+// Color Text Primary
+.c-t-p{
+  @include color_t($color-t);
 }

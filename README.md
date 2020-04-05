@@ -7,7 +7,7 @@
   - [Enlace primario](#enlace-primario)
   - [Enlace secundario](#enlace-secundario)
 1. [TEXTOS](#textos)
-  - [Alineación](#alineacion)
+  - [Alineación](#alineación)
 3. [SECCIONES](#secciones)
   - [Productos](#productos)
   - [Servicios](#servicios)

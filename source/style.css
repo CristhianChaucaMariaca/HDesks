@@ -1,3 +1,41 @@
+/*! Sistema Grid */
+.col-1 {
+  width: columns(1, 12); }
+
+.col-2 {
+  width: columns(2, 12); }
+
+.col-3 {
+  width: columns(3, 12); }
+
+.col-4 {
+  width: columns(4, 12); }
+
+.col-5 {
+  width: columns(5, 12); }
+
+.col-6 {
+  width: columns(6, 12); }
+
+.col-7 {
+  width: columns(7, 12); }
+
+.col-8 {
+  width: columns(8, 12); }
+
+.col-9 {
+  width: columns(9, 12); }
+
+.col-10 {
+  width: columns(10, 12); }
+
+.col-11 {
+  width: columns(11, 12); }
+
+.col-12 {
+  width: columns(12, 12); }
+
+/*! FUNCIONES */
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,6 +46,9 @@
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%; }
+
+.c-t-p {
+  color: black; }
 
 .title-p {
   font-size: 1.5em; }

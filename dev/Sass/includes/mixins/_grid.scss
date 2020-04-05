@@ -3,3 +3,10 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/*! Sistema Grid */
+@for $i from 1 through 12{
+  .col-#{$i}{
+    width: columns($i,12);
+  }
+}
