@@ -1,4 +1,5 @@
 // Color Text Primary
+@import "mixins/colors";
 .c-t-p{
   @include color_t($color-t);
 }

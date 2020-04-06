@@ -1,9 +1,10 @@
 .buttons_and_links
   +title('Botones')
   .row
-    a.btn.btn-primary(href="#") Primary
-    a.btn.btn-secondary(href="#") Secondary
-    a.btn.btn-danger(href="#") Danger
+    +button('Primary')(class="btn-primary")
+    +button('Secondary')(class="btn-secondary")
+    +button('Danger')(class="btn-danger")
+    +button('Default')(class="btn-default")
   +title('Enlaces')
   p.text-a-c
     span Haz click <a class="link-p" href="#">Aquí</a> para mas información

@@ -7,21 +7,27 @@
   }
 }
 .btn-primary{
-  @include primary;
+  @include color($primary,$terciary);
   &:hover{
     background-color: $primary-hover;
   }
 }
 .btn-secondary{
-  @include secondary;
+  @include color($secondary-hover,$terciary);
   &:hover{
     background-color: $secondary;
   }
 }
 .btn-danger{
-  @include danger($danger,$terciary);
+  @include color($danger,$terciary);
   &:hover{
     background-color: $danger-hover;
+  }
+}
+.btn-default{
+  @include color($default,$primary-hover);
+  &:hover{
+    background-color: $default-hover;
   }
 }
 

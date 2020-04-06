@@ -4,9 +4,11 @@
   justify-content: center;
 }
 
-/*! Sistema Grid */
+/*! Sistema Grid  no funciona*/
 @for $i from 1 through 12{
   .col-#{$i}{
-    width: columns($i,12);
+    $restult:  percentage($i / 12);
+    width: $restult;
+    background-color: $default;
   }
 }

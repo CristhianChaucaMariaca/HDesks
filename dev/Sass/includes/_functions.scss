@@ -1,6 +1,2 @@
 /*! FUNCIONES */
-@function columns($columns,$total-columns){
-  $result: percentage($columns / $total-columns);
-  @debug $result;
-  @return $result;
-}
+

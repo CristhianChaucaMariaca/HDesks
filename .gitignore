@@ -1,5 +1,10 @@
+# Archivos Añadidos por software del sistema para el desarrollo
+# PREPROS
 *.config
+# Node SASS
+source/style.css.map
+
+#Archivos y carpetas innecesarios
 /dev/css
 /dev/html
 README.html
-source/style.css.map

@@ -1,12 +1,5 @@
-@mixin primary{
-  background-color: $primary;
-  color: $terciary;
-}
-@mixin secondary{
-  background-color: $secondary-hover;
-  color: $terciary;
-}
-@mixin danger($color-1,$color-2){
+
+@mixin color($color-1,$color-2){
   background-color: $color-1;
   color:$color-2;
 }

@@ -1,0 +1,14 @@
+mixin product(title, description,btntext,banner,href)
+    .product-item 
+        if banner
+            .product-banner
+                img(src="media/"+banner, alt=title title=title)
+        if title
+            .product-title
+                h3.subtitle= title
+        if description
+            .product-description
+                p=  description
+        if btntext && href
+            .product-link.flex-end
+                a(href=href target="_blank").btn&attributes(attributes)= btntext
