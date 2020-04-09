@@ -32,8 +32,8 @@
   margin-bottom: $margin;
 }
 @mixin margin_l_r{
-  margin-left: $margin;
-  margin-right: $margin;
+  margin-left: $margin*2;
+  margin-right: $margin*2;
 }
 @mixin margin_t{
   margin-top: $margin;

@@ -8,8 +8,7 @@
     width: 600px;
     margin: $margin*3;
     .product-title{
-      @include padding_t;
-      @include margin;
+      @include margin_l_r;
       color:$secondary-hover;
     }
     .product-banner{
@@ -24,7 +23,7 @@
       }
     }
     .product-description{
-      @include margin;
+      @include margin_l_r;
       p{
         @include align_j;
         font-size: $f-s-card;

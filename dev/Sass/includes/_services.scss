@@ -4,7 +4,7 @@
   .service-item{
     @include flex;
     overflow: hidden;
-    width: 350px;
+    width: 80%;
     height: auto;
     margin:$margin*3;
     border-radius: $radius;
@@ -40,6 +40,7 @@
         @include color_p_soft;
         font-size: $f-s-card;
         font-family: 'Roboto', sans-serif!important;
+        text-align: justify;
       }
     }
     .service-link{
