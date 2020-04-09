@@ -1,0 +1,16 @@
+.rotate{
+    animation: rotar 1s;
+}
+@keyframes rotar{
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+        transform: rotateY(90deg);
+    }
+    100%{
+        transform: scale(1);
+        transform: rotate(0deg);
+        opacity: 100%;
+    }
+
+}
