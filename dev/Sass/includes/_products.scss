@@ -1,6 +1,7 @@
 .products{
   @include flex;
   font-family: $font,$font-s!important;
+  perspective: 1500px;
   .product-item{
     @include shadow;
     @include padding;

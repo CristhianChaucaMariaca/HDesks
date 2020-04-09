@@ -3,14 +3,12 @@
 }
 @keyframes rotar{
     0%{
-        transform: scale(0.5);
         opacity: 0;
-        transform: rotateY(90deg);
+        transform: scale(0.3) rotateX(65deg);
     }
     100%{
-        transform: scale(1);
-        transform: rotate(0deg);
         opacity: 100%;
+        transform: scale(1) rotate(0deg);
     }
 
 }
