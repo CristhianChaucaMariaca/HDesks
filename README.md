@@ -7,10 +7,12 @@
   - [Enlace primario](#enlace-primario)
   - [Enlace secundario](#enlace-secundario)
 1. [TEXTOS](#textos)
-  - [Alineación](#alineación)
+  - [Alineación](#alineacion)
 3. [SECCIONES](#secciones)
   - [Productos](#productos)
   - [Servicios](#servicios)
+1. [ALINEACIONES](#alineaciones)
+
 ___
 ## BOTONES
 
@@ -38,7 +40,7 @@ Para usar los **enlaces primarios** se debe incluir clases en las etiquetas `.li
 
 ## TEXTOS
 
-### Alineación
+### Alineacion
 Para usar los **enlaces primarios** se debe incluir clases en las etiquetas `.link-p` y así podras usar los estilos.
 
 Clases a otilizar:
@@ -97,7 +99,7 @@ Para implementar **Productos** se debe seguir la siguiente estructura, toda la e
     <div class="product-description">
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis nostrum placeat magni id corporis eum, quaerat dolores! Recusandae, facere, eaque!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, rem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, corporis.</p>
     </div>
-    <div class="product-link"><a class="btn-secondary" href="#">Consultar por el producto  </a></div>
+    <div class="product-link"><a class="btn btn-secondary" href="#">Consultar por el producto  </a></div>
   </div>
 </div>
 ```
@@ -116,9 +118,22 @@ Para implementar **Servicios** se debe seguir la siguiente estructura, toda la e
     <div class="service-description">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, facilis!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, qui.</p>
     </div>
-    <div class="service-link"><a class="btn-secondary" href="#">Ver Servicio</a></div>
+    <div class="service-link"><a class="btn btn-secondary" href="#">Ver Servicio</a></div>
   </div>
 </div>
+```
+
+## ALINEACIONES
+
+Para **alinear** cajas debes usar las clases:
+1. `.flex-end`, Alinea al final.
+1. `.flex-start`, Alinea al inicio.
+1. `.flex-center`, Alinea al centro.
+#### Ejemplo de uso:
+```html
+<a href="" class="btn btn-primary flex-end">Primary</a>
+<a href="" class="btn btn-secondary flex-start">Secondary</a>
+<a href="" class="btn btn-danger flex-center">Danger</a>
 ```
 
 

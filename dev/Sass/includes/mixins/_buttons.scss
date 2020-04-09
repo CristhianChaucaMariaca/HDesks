@@ -3,12 +3,17 @@
   text-decoration: none;
   text-align: center;
   font-weight: 700;
-  border-radius: $radius;
-  padding: 10px;
+  border-radius: $radius!important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-transform: uppercase;
   margin: $margin;
   position: relative;
   @include margin_t_b;
+  font-family: 'Roboto',sans-serif!important;
+  font-size: 0.8em;
 }
 @mixin buttons_hover{
   transition: $trancition;

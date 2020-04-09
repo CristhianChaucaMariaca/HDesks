@@ -1,19 +1,19 @@
 
 @mixin color($color-1,$color-2){
-  background-color: $color-1;
-  color:$color-2;
+  background-color: $color-1!important;
+  color:$color-2!important;
 }
 // COLOR DE ENLACE PRIMARIO
 @mixin c_l_primary{
-  color:$secondary;
+  color:$secondary!important;
   &:hover{
-    color:$secondary-hover;
+    color:$secondary-hover!important;
   }
 }
 @mixin c_l_secondary{
-  color:$primary;
+  color:$primary!important;
   &:hover{
-    color:$primary-hover;
+    color:$primary-hover!important;
   }
 }
 

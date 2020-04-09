@@ -9,25 +9,29 @@
 .btn-primary{
   @include color($primary,$terciary);
   &:hover{
-    background-color: $primary-hover;
+    background-color: $primary-hover!important;
   }
 }
 .btn-secondary{
   @include color($secondary-hover,$terciary);
   &:hover{
-    background-color: $secondary;
+    background-color: $secondary!important;
+  }
+  &:visited{ // TODO: verificar el funcionamiento y mejorar el código
+    background-color: $default;
+    color:$primary;
   }
 }
 .btn-danger{
   @include color($danger,$terciary);
   &:hover{
-    background-color: $danger-hover;
+    background-color: $danger-hover!important;
   }
 }
 .btn-default{
   @include color($default,$primary-hover);
   &:hover{
-    background-color: $default-hover;
+    background-color: $default-hover!important;
   }
 }
 

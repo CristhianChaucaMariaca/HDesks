@@ -1,10 +1,11 @@
 .services{
   @include flex;
+  font-family: $font!important;
   .service-item{
     @include flex;
     overflow: hidden;
     width: 350px;
-    height: 370px;
+    height: auto;
     margin:$margin*3;
     border-radius: $radius;
     @include shadow;
@@ -25,6 +26,8 @@
         @include margin_t_b;
         text-transform: uppercase;
         font-weight: 900;
+        font-family: 'Roboto', sans-serif!important;
+        color:$secondary;
       }
     }
     .service-description{
@@ -35,6 +38,8 @@
       align-items: center;
       p{
         @include color_p_soft;
+        font-size: $f-s-card;
+        font-family: 'Roboto', sans-serif!important;
       }
     }
     .service-link{
@@ -42,9 +47,6 @@
       @include flex;
       width: 100%;
       align-self: flex-end;
-      a{
-        width: 80%;
-      }
     }
   }
 }

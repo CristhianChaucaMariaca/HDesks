@@ -10,7 +10,10 @@ $color-t: black;
 $default:#e2e1e1;
 $default-hover:#d3d3d3;
 // FUENTES & TEXTOS
-$font:'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+$font:'Roboto';
+$font-s: 'sans-serif';
+$f-s-card:0.8em;
 
 // PADDINGS & MARGINS
 $padding:5px;

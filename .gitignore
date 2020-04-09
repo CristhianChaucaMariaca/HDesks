@@ -7,4 +7,5 @@ source/style.css.map
 #Archivos y carpetas innecesarios
 /dev/css
 /dev/html
+source/includes/
 README.html

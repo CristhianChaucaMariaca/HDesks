@@ -1,5 +1,6 @@
 .products{
   @include flex;
+  font-family: $font,$font-s!important;
   .product-item{
     @include shadow;
     @include padding;
@@ -26,6 +27,8 @@
       @include margin;
       p{
         @include align_j;
+        font-size: $f-s-card;
+        font-family: 'Roboto', sans-serif!important;
       }
     }
     .product-link{
