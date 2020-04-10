@@ -1,5 +1,5 @@
 mixin product(title, description,btntext,banner,href)
-    .product-item.rotate
+    .product-item&attributes(attributes)
         if banner
             .product-banner
                 img(src="media/"+banner, alt=title title=title)
@@ -11,4 +11,4 @@ mixin product(title, description,btntext,banner,href)
                 p=  description
         if btntext && href
             .product-link.flex-end
-                a(href=href target="_blank").btn&attributes(attributes)= btntext
+                a(href=href target="_blank").btn.btn-primary= btntext

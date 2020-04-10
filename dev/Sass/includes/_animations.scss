@@ -1,6 +1,8 @@
+
 .rotate{
-    animation: rotar 1s;
+    @include rotate;
 }
+
 @keyframes rotar{
     0%{
         opacity: 0;

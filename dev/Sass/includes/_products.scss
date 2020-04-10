@@ -2,12 +2,25 @@
   @include flex;
   font-family: $font,$font-s!important;
   perspective: 1500px;
+  #rotate-1{
+    @include rotate;
+  }
+  #rotate-2{
+    @include rotate;
+  }
+  #rotate-3{
+    @include rotate;
+  }
+  #rotate-4{
+    @include rotate;
+  }
   .product-item{
     @include shadow;
     @include padding;
     border-radius: $radius;
     width: 600px;
     margin: $margin*3;
+    
     .product-title{
       @include margin_l_r;
       color:$secondary-hover;
