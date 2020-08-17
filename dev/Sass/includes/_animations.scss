@@ -1,6 +1,11 @@
-
 .rotate{
     @include rotate;
+}
+.rotar-y{
+    @include rotateY;
+}
+.rotar-y-r{
+    @include rotateYr;
 }
 
 @keyframes rotar{
@@ -13,4 +18,15 @@
         transform: scale(1) rotate(0deg);
     }
 
+}
+
+@keyframes rotateY{
+    0%{
+        opacity: 0;
+        transform: rotateY(65deg);
+    }
+    100%{
+        opacity: 100%;
+        transform: rotate(0deg);       
+    }
 }

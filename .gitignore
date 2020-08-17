@@ -3,6 +3,7 @@
 *.config
 # Node SASS
 source/style.css.map
+node_modules
 
 #Archivos y carpetas innecesarios
 /dev/css

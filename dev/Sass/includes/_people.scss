@@ -1,0 +1,51 @@
+.peoples{
+    @include flex;
+    .people-item{
+        width: 300px;
+        @include flex;
+        flex-direction: column;
+        perspective: 2000px;
+        margin: $margin*2;
+        .people-img{
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            border-radius: 200px;
+            overflow: hidden;
+            img{
+                max-width: 100%;
+            }
+            @include shadow;
+        }
+        .people-body{
+            @include margin_t;
+            @include shadow;
+            border-radius: $radius;
+            padding: 5px;
+            .people-name{
+                h4{
+                    width: 100%;
+                    text-align: center;
+                    color: $secondary-hover;
+                    font-size: 0.8em;
+                }
+            }
+            .people-skills{
+                ol{
+                    text-align: left;
+                    li{
+                        font-style: italic;
+                        font-size: 0.7em;
+                        font-weight: 300;
+                        color: $primary-hover;
+                    }
+                }
+            }
+            .people-link{
+                @include flex;
+                a{
+                }
+            }
+        }
+    }
+}

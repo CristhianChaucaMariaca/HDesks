@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   output: {
-    path: path.resolve(__dirname, 'source/'),
+    path: path.resolve(__dirname, 'dist/'),
     filename: 'app.js',    
   },
   entry: {
@@ -30,8 +30,26 @@ module.exports = {
             {loader: 'sass-loader'}
             ],
         },
+        {
+          test: /\.(png|jpe?g|gif|svg)$/i,
+          // use: 'file-loader',
+          // include: path.join(__dirname, 'dev')
+          use:
+            {
+              loader: 'file-loader',
+              options: {
+                name: "[path][name].[ext]",
+                outputPath: "imgs"
+              }
+            },
+        }
       ],
   },
+  // resolve: {
+  //   alias:{
+  //     'images': path.resolve(__dirname, 'dev/assets')
+  //   }
+  // },
   plugins: [
     new  HtmlWebpackPlugin({
         template: path.resolve('./dev/Pug', 'index.pug')

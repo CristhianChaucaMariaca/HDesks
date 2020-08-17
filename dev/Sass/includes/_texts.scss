@@ -24,7 +24,12 @@
 // TITULOS
 .subtitle{
   @include align_l;
-  font-family: 'Roboto',sans-serif!important;
+  width: 100%;
+  h3,h4{
+    font-family: 'Roboto',sans-serif!important;
+    color:$primary-hover;
+    font-size: 1em;
+  }
 }
 // OTROS
 .hr-s{
